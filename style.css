@@ -13,9 +13,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 2;
-    background: #F5E9E5;
     font-family: 'Spartan', sans-serif;
-    font-size: 0.9em;
 }
 
 nav a {
@@ -24,6 +22,7 @@ nav a {
     padding: 10px;
     text-decoration: none;
     color: #3b3b3b;
+    font-size: 0.7em;
 }
 
 h1, h2, h3 {
@@ -62,9 +61,14 @@ h3 {
 
 p, section a {
     font-family: 'Spartan', sans-serif;
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #3b3b3b;
     padding: 15px;
+    text-align: center;
+}
+
+section em {
+    font-size: 0.8em;
 }
 
 section a {
@@ -73,16 +77,11 @@ section a {
     padding: 10px;
     color: #3b3b3b;
     border-radius: 15px;
-    width: 30%;
+    width: 50%;
     text-align: center;
 }
 
 a:hover {
-    background: #F1C5B6;
-}
-
-a:active {
-    font-weight: bold;
     background: #F1C5B6;
 }
 
@@ -114,4 +113,72 @@ footer {
 
 #about a {
     margin: 5px;
+}
+
+/* Tablet screen adjustments */
+
+@media only screen and (max-width: 800px) and (min-width: 401px) {
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+    
+    p, section a, nav a {
+        font-size: 1em;
+    }
+    
+    section p {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    h1 {
+        font-size: 3em;
+        letter-spacing: 0.05em;
+    }
+    
+    h2 {
+        font-size: 1.6em;
+        letter-spacing: 0.05em;
+    }
+    
+    h3 {
+        font-size: 1.4em;
+        letter-spacing: 0.05em;
+    }
+    
+    p, section a, nav a {
+        font-size: 1.2em;
+    }
+    
+    section p {
+        max-width: 600px;
+    }
+    
+    nav a {
+        padding: 30px;
+    }
+    
+    section p {
+        max-width: 800px;
+    }
+
+    hr {
+        border-top: 30px solid #F5E9E5;
+        box-shadow: none;
+    }
+
+    .title h1 {
+        height: 45px;
+        z-index: 1;
+    }
 }
