@@ -24,10 +24,16 @@ nav {
 nav a {
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 1em;
     text-decoration: none;
     color: #3b3b3b;
     font-size: 0.7em;
+}
+
+nav img {
+    justify-self: flex-start;
+    align-self: center;
+    max-width: 4%;
 }
 
 /* Text styling on headers */
@@ -150,6 +156,10 @@ footer {
     
     p, section a, nav a {
         font-size: 1em;
+    }
+
+    nav a {
+        padding: 0.8em;
     }
     
     /* Limiting width to keep formatting tidy */
