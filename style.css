@@ -1,3 +1,5 @@
+/* Mobile friendly design */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +7,7 @@
     font-size: 18px;
 }
 
+/* Navigation bar */
 nav {
     width: 100%;
     height: 60px;
@@ -13,9 +16,11 @@ nav {
     position: fixed;
     top: 0;
     z-index: 2;
+    background: white;
     font-family: 'Spartan', sans-serif;
 }
 
+/* Nav bar links */
 nav a {
     display: flex;
     align-items: center;
@@ -25,6 +30,7 @@ nav a {
     font-size: 0.7em;
 }
 
+/* Text styling on headers */
 h1, h2, h3 {
     font-family: 'Marcellus', serif;
     text-align: center;
@@ -44,14 +50,17 @@ h3 {
     font-size: 1em;
 }
 
+/* Moving content down to be visible below fixed nav bar */
 #hero, .title {
     margin-top: 70px;
 }
 
+/* Animating home page */
 #hero h1 {
     /* If time try to animate typing text here */
 }
 
+/* Formatting home page */
 #hero, section {
     display: flex;
     flex-direction: column;
@@ -59,6 +68,7 @@ h3 {
     align-items: center;
 }
 
+/* Styling non-header text */
 p, section a {
     font-family: 'Spartan', sans-serif;
     font-size: 0.8em;
@@ -81,10 +91,12 @@ section a {
     text-align: center;
 }
 
+/* Pseudo classes for links */
 a:hover {
     background: #F1C5B6;
 }
 
+/* Aligning hr element with header */
 hr {
     border-top: 20px solid #F5E9E5;
     width: 100%;
@@ -105,12 +117,14 @@ hr {
     background: #F5E9E5;
 }
 
+/* Styling footer icons */
 footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+/* Styling for links under about section */
 #about a {
     margin: 5px;
 }
@@ -118,7 +132,7 @@ footer {
 /* Tablet screen adjustments */
 
 @media only screen and (max-width: 800px) and (min-width: 401px) {
-    
+    /* Increasing font size for larger screen */
     h1 {
         font-size: 2em;
     }
@@ -135,12 +149,16 @@ footer {
         font-size: 1em;
     }
     
+    /* Limiting width to keep formatting tidy */
     section p {
         max-width: 600px;
     }
 }
 
+/* Desktop screen adjustments */
+
 @media only screen and (min-width: 801px) {
+    /* Adjusting text for bigger screen size */
     h1 {
         font-size: 3em;
         letter-spacing: 0.05em;
@@ -160,18 +178,17 @@ footer {
         font-size: 1.2em;
     }
     
-    section p {
-        max-width: 600px;
-    }
-    
+    /* Enlarging menu for better use of white space */
     nav a {
         padding: 30px;
     }
     
+    /* Formatting widths to keep tidy */
     section p {
         max-width: 800px;
     }
 
+    /* Adjusting hr element for different font sizes */
     hr {
         border-top: 30px solid #F5E9E5;
         box-shadow: none;
@@ -181,4 +198,14 @@ footer {
         height: 45px;
         z-index: 1;
     }
+
+    nav {
+        z-index: 3;
+    }
+
+    #hero {
+        display: flex;
+        max-width: 800px;
+    }
+
 }
