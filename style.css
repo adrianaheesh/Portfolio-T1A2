@@ -205,7 +205,13 @@ footer {
 
     #hero {
         display: flex;
-        max-width: 800px;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    #hero img {
+        width: 50%;
     }
 
 }
