@@ -76,7 +76,6 @@ a:hover {
 
 hr {
     border-top: 20px solid #F5E9E5;
-    opacity: 0.5;
 }
 
 .title {
@@ -88,4 +87,14 @@ hr {
 .title h1 {
     height: 30px;
     z-index: 1;
+}
+
+.background-block {
+    background: #F5E9E5;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
