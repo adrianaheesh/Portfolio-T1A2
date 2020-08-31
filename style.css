@@ -27,14 +27,11 @@ nav a {
     color: hsl(0, 0%, 23%);
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
 h1, h2, h3 {
     font-family: 'Marcellus', serif;
     text-align: center;
     color: hsl(0, 0%, 23%);
+    padding: 10px;
 }
 
 h1 {
@@ -71,5 +68,9 @@ a {
     background: #F5E9E5;
     padding: 10px;
     color: #3b3b3b;
+}
+
+a:hover {
+    background: #F1C5B6;
 }
 
