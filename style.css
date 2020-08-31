@@ -12,7 +12,8 @@ nav {
     position: fixed;
     background: #F5E9E5;
     font-family: 'Spartan', sans-serif;
-    font-size: 1.1em;
+    font-weight: 600;
+    font-size: 0.75em;
 }
 
 nav a {
@@ -20,10 +21,10 @@ nav a {
     align-items: center;
     padding: 10px;
     text-decoration: none;
-    color: #3B3B3B;
+    color: hsl(0, 0%, 23%);
 }
 
 nav a:hover {
-    color: #3B3B3B;
+    text-decoration: underline;
 }
 
