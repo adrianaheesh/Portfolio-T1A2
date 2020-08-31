@@ -105,3 +105,9 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
+#about a {
+    margin: 5px;
+    width: 50%;
+    text-align: center;
+}
