@@ -130,6 +130,14 @@ article div {
     width: 100%;
 }
 
+/* Formatting container div for text */
+.hero-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Images within articles */
 article img {
     max-width: 80%;
@@ -139,6 +147,7 @@ article img {
 /* Balancing space between posts or 'articles' */
 .posts p {
     padding: 1%;
+    margin: auto;
 }
 
 /* Pseudo classes for links */
