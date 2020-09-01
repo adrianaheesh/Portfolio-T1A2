@@ -186,9 +186,31 @@ hr {
 
 /* Styling Footer icons */
 footer {
+    background: #e0e0e0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    height: 50px;
+    margin-top: 5%;
+}
+
+footer i {
+    font-size: 2rem;
+    color: #3b3b3b;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 5%;
+}
+
+footer i:visited {
+    color: none;
+}
+
+footer i:hover {
+    color: #F1C5B6
+    background: #3b3b3b;
 }
 
 /* Styling for links under about section */
@@ -240,11 +262,6 @@ footer {
     #hero, .title {
         margin-top: 90px;
     }
-
-    /* Adjusting layout for tablet view */
-    #hero h1 {
-        order: -1;
-    }  
 }
 
 /* Desktop screen adjustments */
