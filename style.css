@@ -74,6 +74,10 @@ h3 {
 
 /* Animating home page - button appearing or name typing etc. time permitting*/
 
+/* Adjusting layout for mobile view */
+#hero h1 {
+    order: -1;
+}
 
 /* Formatting home page */
 #hero, section {
@@ -81,6 +85,31 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Formatting articles eg. portfolio work and blog posts*/
+.posts {
+    display: grid;
+    grid-template-rows: 1;
+}
+
+article {
+    padding: 15px;
+}
+
+.white-background {
+    display: grid;
+    justify-self: center;
+}
+
+.background-block {
+    display: grid;
+    justify-self: center;
+}
+
+article img {
+    max-width: 80%;
+    justify-self: center;
 }
 
 /* Styling non-header text */
@@ -113,8 +142,7 @@ a:hover {
 
 /* Aligning hr element with header */
 hr {
-    border-top: 20px solid #F5E9E5;
-    background-color: #F5E9E5;
+    border-top: 2em solid #F5E9E5;
     width: 100%;
 }
 
@@ -188,6 +216,11 @@ footer {
     #hero, .title {
         margin-top: 90px;
     }
+
+    /* Adjusting layout for tablet view */
+    #hero h1 {
+        order: -1;
+    }
     
 }
 
@@ -196,7 +229,7 @@ footer {
 @media only screen and (min-width: 801px) {
     /* Adjusting text for bigger screen size */
     h1 {
-        font-size: 3em;
+        font-size: 2.7em;
         letter-spacing: 0.05em;
     }
     
@@ -218,7 +251,7 @@ footer {
     header {
         height: 100px;
     }
-
+    
     nav a {
         padding: 1.5em;
     }
@@ -227,34 +260,63 @@ footer {
     section p {
         max-width: 800px;
     }
-
-    /* Adjusting hr element for different font sizes */
+    
+    /* Adjusting hr element to be responsive */
     hr {
-        border-top: 30px solid #F5E9E5;
+        border-top: 2.4em solid #F5E9E5;
     }
-
+    
     .title h1 {
-        height: 60px;
+        height: 40px;
         z-index: 1;
     }
-
+    
     header {
         z-index: 3;
     }
-
+    
     header img {
         margin-top: 1.5em;
     }
+    
+    .title {
+        margin-top: 90px;
+    }
 
     #hero {
+        width: 70%;
+        margin: 90px auto;
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: center;
     }
 
     #hero img {
-        width: 70%;
+        /* order: -1;  */
+        flex: 4;
+        max-width: 50%;  
     }
 
+    #hero a {
+        max-width: 80%;
+        margin: 0.5em;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* height: 900px; */
+        flex: 3;
+    }
+
+    .hero-content a {
+        font-size: 1.5vw;
+    }
+
+    .hero-content h1 {
+        font-size: 4vw;
+    }
 }
