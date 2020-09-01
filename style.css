@@ -103,7 +103,7 @@ section a {
     padding: 10px;
     color: #3b3b3b;
     border-radius: 15px;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
@@ -204,18 +204,19 @@ footer a {
     padding: 5%;
 }
 
-footer i:visited {
-    color: none;
+footer a:visited {
+    color: #3b3b3b;
 }
 
 footer i:hover {
-    color: #F1C5B6
-    background: #3b3b3b;
+    color: #3b3b3b;
+    font-size: 2.1rem;
 }
 
 /* Styling for links under about section */
 #about a {
     margin: 5px;
+    width: 50%;
 }
 
 /* Tablet screen adjustments */
