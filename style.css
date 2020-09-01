@@ -21,7 +21,7 @@ header {
 }
 
 header img {
-    max-width: 10%;
+    max-height: 80%;
     margin: 1em;
     display: flex;
     align-items: center;
@@ -114,6 +114,7 @@ a:hover {
 /* Aligning hr element with header */
 hr {
     border-top: 20px solid #F5E9E5;
+    background-color: #F5E9E5;
     width: 100%;
 }
 
@@ -169,7 +170,8 @@ footer {
     }
 
     nav a {
-        padding: 0.8em;
+        padding: 0.4em;
+        font-size: 0.9em;
     }
     
     /* Limiting width to keep formatting tidy */
@@ -183,10 +185,6 @@ footer {
         margin-bottom: 20px;
     }
     
-    nav {
-        height: 70px;
-    }
-
     #hero, .title {
         margin-top: 90px;
     }
@@ -217,14 +215,13 @@ footer {
     }
     
     /* Enlarging menu for better use of white space */
-    nav {
-        height: 70px;
+    header {
+        height: 100px;
     }
 
     nav a {
-        padding: 30px;
+        padding: 1.5em;
     }
-
     
     /* Formatting widths to keep tidy */
     section p {
@@ -234,7 +231,6 @@ footer {
     /* Adjusting hr element for different font sizes */
     hr {
         border-top: 30px solid #F5E9E5;
-        box-shadow: none;
     }
 
     .title h1 {
@@ -242,8 +238,12 @@ footer {
         z-index: 1;
     }
 
-    nav {
+    header {
         z-index: 3;
+    }
+
+    header img {
+        margin-top: 1.5em;
     }
 
     #hero {
@@ -254,7 +254,7 @@ footer {
     }
 
     #hero img {
-        width: 50%;
+        width: 70%;
     }
 
 }
