@@ -519,4 +519,13 @@ footer a:hover {
         text-align: left;
     }
 
+     /* Styling about call to action buttons  */
+     #about-cta {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    
 }
