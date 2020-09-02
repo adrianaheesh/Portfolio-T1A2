@@ -168,6 +168,11 @@ article img {
     margin: auto;
 }
 
+/* Adjusting white space above blog post 1 */
+.title p {
+    padding-bottom: 0;
+}
+
 /* Pseudo classes for links */
 nav a:hover, section a:hover {
     background: #F1C5B6;
@@ -230,11 +235,41 @@ footer a:hover {
     color: #3b3b3b;
     font-size: 2.1rem;
 }
+/* Formatting about page, where overall containter is .about */
 
 /* Styling for links under about section */
+#skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    background: #F5E9E5;
+    padding: 2%;
+}
+
+#skills div {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Links at bottom of page */
 #about a {
-    margin: 5px;
+    margin: 1%;
     width: 50%;
+}
+
+#skills i {
+    color: #3b3b3b;
+    font-size: 3rem;
+    padding: 2%;
+}
+
+#skills p {
+    line-height: 1.2;
 }
 
 /* Tablet screen adjustments */
@@ -313,11 +348,6 @@ footer a:hover {
     
     nav a {
         padding: 1.5em;
-    }
-    
-    /* Formatting widths to keep tidy */
-    section p {
-        max-width: 800px;
     }
     
     /* Adjusting hr element to be responsive */
