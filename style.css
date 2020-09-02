@@ -46,25 +46,28 @@ nav a {
 
 /* Text styling on headers */
 h1, h2, h3 {
-    /* font-family: 'Marcellus', serif; */
-    font-family: 'ivymode', sans-serif;
-    font-weight: 700;
-    font-style: normal;
     text-align: center;
     color: hsl(0, 0%, 23%);
     padding: 2%;
 }
 
 h1 {
-    font-size: 1.7em;
+    font-size: 1.7rem;
+    font-family: 'ivymode', sans-serif;
+    font-weight: 700;
+}
+
+h2, h3 {
+    font-family: 'ivymode', sans-serif;
+    font-weight: 400;
 }
 
 h2 {
-    font-size: 1.15em;
+    font-size: 1.15rem;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 /* Home page formatting, where #hero is the content container */
