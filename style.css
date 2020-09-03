@@ -44,7 +44,7 @@ nav a {
     font-size: 0.7em;
 }
 
-/* Text styling on headers */
+/* Text styling */
 h1, h2, h3 {
     text-align: center;
     color: hsl(0, 0%, 23%);
@@ -74,6 +74,18 @@ p {
     line-height: 1.5;
 }
 
+p, section a, ol {
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.8em;
+    color: #3b3b3b;
+    padding: 15px;
+    text-align: center;
+}
+
+p, section a {
+    text-align: center;
+}
+
 /* Home page formatting, where #hero is the content container */
 #hero {
     display: flex;
@@ -87,7 +99,7 @@ p {
     margin: 10px;
 }
 
-/* Adjusting content down to be visible below fixed nav bar */
+/* Adjusting content down to be visible below fixed nav bar for all pages*/
 #hero, .title {
     margin-top: 15%;
 }
@@ -111,22 +123,6 @@ p {
     50% {border-color: #3b3b3b; }
 }
 
-/* Styling non-header text */
-p, section a, {
-    font-family: 'Spartan', sans-serif;
-    font-size: 0.8em;
-    color: #3b3b3b;
-    padding: 15px;
-    text-align: center;
-}
-
-ol {
-    font-family: 'Spartan', sans-serif;
-    font-size: 0.8em;
-    color: #3b3b3b;
-    padding: 15px;
-    text-align: left;
-}
 
 /* Making links look like buttons for home page and about page */
 .hero-content a, #about a {
