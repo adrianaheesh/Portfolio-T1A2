@@ -1,8 +1,10 @@
+/* Formatting for hero image */
 #blog-post img {
   width: 80%;
   margin: 5%;
 }
 
+/* Aligning content in centre where #blog-post is the container */
 #blog-post {
   display: flex;
   flex-direction: column;
@@ -10,8 +12,9 @@
   align-items: center;
 }
 
+
 .title h1 {
-  font-size: 0.8rem;
+  font-size: 2.7vw;
   height: 12px;
 }
 
@@ -20,7 +23,7 @@
 }
 
 hr {
-  border-top: 0.8em solid #f5e9e5;
+  border-top: 2vw solid #f5e9e5;
 }
 
 ol {
@@ -38,31 +41,16 @@ li {
 }
 
 @media only screen and (max-width: 800px) and (min-width: 401px) {
-  .title h1 {
-    font-size: 1.6rem;
-  }
-
-  hr {
-    border-top: 1.2em solid #f5e9e5;
-  }
-
   ol {
     font-size: 1em;
   }
 }
 
 @media only screen and (min-width: 801px) {
-  .title h1 {
-    font-size: 1.8em;
-  }
-
-  hr {
-    border-top: 1.5em solid #f5e9e5;
-  }
-
   .title {
     margin-top: 10%;
   }
+
   ol {
     font-size: 1.2em;
   }
