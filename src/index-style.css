@@ -14,7 +14,7 @@
   margin: 10px;
 }
 
-/* Home page text div, .hero-content is the container div */
+/* Formatting text and button on home page, where .hero-content is the container with these items */
 .hero-content {
   width: 80%;
   display: flex;
@@ -49,6 +49,7 @@
   }
 }
 
+/* Tablet screen size adjustments */
 @media only screen and (max-width: 800px) and (min-width: 401px) {
   /* Adjusting hero image on home page */
   #hero img {
@@ -62,7 +63,9 @@
   }
 }
 
+/* Desktop screen size adjustments */
 @media only screen and (min-width: 801px) {
+/* Content container */
   #hero {
     width: 70%;
     margin: 90px auto;
@@ -82,6 +85,7 @@
     margin: 0.5em;
   }
 
+  /* Container that includes text and button on home page */
   .hero-content {
     display: flex;
     flex-direction: column;
@@ -90,6 +94,7 @@
     flex: 3;
   }
 
+  /* Home page button */
   .hero-content a {
     font-size: 1.5vw;
   }
