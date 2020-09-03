@@ -21,7 +21,7 @@ header {
   background: white;
 }
 
-/* Formatting for logo in header bar */
+/* Logo in header bar */
 header img {
   max-height: 80%;
   margin: 1em;
@@ -51,7 +51,7 @@ nav a {
   margin-top: 15%;
 }
 
-/* Styling Footer */
+/* Styling footer */
 footer {
   background: #e0e0e0;
   display: flex;
@@ -61,7 +61,7 @@ footer {
   margin-top: 5%;
 }
 
-/* Where i is the element adapted from devicon (font style icons) */
+/* i is the element adapted from devicon (font style icons) */
 footer i {
   font-size: 2rem;
   color: #3b3b3b;
