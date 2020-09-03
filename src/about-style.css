@@ -69,35 +69,6 @@
 
 /* Tablet screen size adjustments */
 @media only screen and (max-width: 800px) and (min-width: 401px) {
-  /* Format layout of image and heading text for responsiveness */
-  /* div container with img and h2/h3 */
-  #about-hero {
-    display: grid;
-    grid-template: 50% 50% / 50% 50%;
-    grid-auto-flow: column;
-    padding: 2%;
-    column-gap: 3%;
-  }
-
-  #about-hero img {
-    grid-row: 1 / 3;
-    grid-column: 1 / 2;
-    justify-self: end;
-  }
-
-  /* Moving h2 text to be centred and left aligned */
-  #about-hero h2 {
-    justify-self: start;
-    align-self: end;
-  }
-
-  /* Moving h3 text to be centred and left aligned */
-  #about-hero h3 {
-    justify-self: start;
-    align-self: start;
-    text-align: left;
-  }
-
   /* Styling about page call to action buttons to be inline instead of stacked */
   #about-cta {
     width: 100%;
