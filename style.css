@@ -120,6 +120,7 @@ p, section a {
     text-align: center;
 }
 
+/* Making links look like buttons for home page and about page */
 .hero-content a, #about a {
     text-decoration: none;
     background: #F5E9E5;
@@ -179,8 +180,17 @@ article img {
 }
 
 /* Pseudo classes for links */
-nav a:hover, section a:hover {
+nav a:hover, .hero-content a:hover, #about a:hover {
     background: #F1C5B6;
+}
+
+.portfolio-links {
+    text-decoration: none;
+    padding: 0;
+}
+
+.portfolio-links:hover {
+    text-decoration: underline;
 }
 
 /* Aligning hr element with header */
