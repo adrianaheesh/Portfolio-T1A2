@@ -213,6 +213,10 @@ hr {
     align-items: center;
 }
 
+#about img {
+    width: 70%;
+}
+
 /* Styling about call to action buttons  */
 #about-cta {
     width: 100%;
