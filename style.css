@@ -120,7 +120,7 @@ p, section a {
     text-align: center;
 }
 
-section a {
+.hero-content a, #about a {
     text-decoration: none;
     background: #F5E9E5;
     padding: 10px;
