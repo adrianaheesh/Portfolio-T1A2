@@ -529,5 +529,7 @@ footer a:hover {
 
     #skills {
         flex-direction: row;
+        justify-items: space-between;
+        margin: auto;
     }
 }
