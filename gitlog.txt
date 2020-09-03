@@ -1,0 +1,491 @@
+commit c72cbebbe90b2fcdfb876915a498215cd57f49be
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 18:16:49 2020 +1000
+
+    added SRI to every style sheet
+
+commit dd5b3a9156c3f5a8410548f2f5ba0fb78b2e0258
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 17:53:57 2020 +1000
+
+    adding pixel height to nav bar instead of %
+
+commit 080a7e70835ab891b55c4572795bbd8a35765b55
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 17:51:45 2020 +1000
+
+    update about page container width
+
+commit 0881ded423f0136475b0e2cb9c98ba9fbc0fb44d
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 17:33:49 2020 +1000
+
+    change tablet layout to match mobile on about page
+
+commit ca839bb8073ef205c4e8872a4ed8f825e122562a
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 17:22:30 2020 +1000
+
+    updating comments on general rules style sheet
+
+commit 29154a6746852292c598ee07c927007ae6fc5eaf
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 17:19:06 2020 +1000
+
+    added and edited comments to portfolio and blog style sheet
+
+commit d3e9daaa0b61519fa4e0fb233c72a2b46225cf49
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 17:14:25 2020 +1000
+
+    updated comments on home page stlye sheet
+
+commit b0c3714c4690a4ad86f48aaef11383e3022aefef
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 17:09:50 2020 +1000
+
+    updating and formatting comments in blog-page style sheets
+
+commit fab0135dd0b67f81008528888c977ab34c1dc43d
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 17:04:52 2020 +1000
+
+    updated and checked comments on about page css sheet
+
+commit 092d8fdce9edd540489e52fb834b765e106e7e71
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 16:57:34 2020 +1000
+
+    updated title text to be responsive to webpage width on blog post page
+
+commit 0a3e0d3add77a3cbcdba8717da8eb076f854ed97
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 16:13:49 2020 +1000
+
+    formatted all documents with Prettier
+
+commit d5e9bb52f6b9e1cd746ebdf7b61b635465fb3244
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 16:04:15 2020 +1000
+
+    updated some file names and mailto tag after running through HTML checker
+
+commit b316e5df67408ba8d8e46c26c652f171b45d23dc
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 14:20:38 2020 +1000
+
+    added footer to blog-post page
+
+commit 0a37f56ada0d40fb970fa37457653f3a2fd84804
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 14:18:38 2020 +1000
+
+    added styling to blog-post page, inclduing media queries and linked to HTML
+
+commit 607bb5ab499b695dbae5513bb17faf02ca034d05
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 13:59:39 2020 +1000
+
+    added new photos to all blog artivles and created link to a post on each
+
+commit d56e8c73c9dd531c99c4bbe90871de52bc0c9215
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 13:31:19 2020 +1000
+
+    split css into one general css sheet and then indivudal sheets for different pages to keep more manageable
+
+commit cfde58d9eb426a7b75e6c48317f84e1d18dc44c0
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 13:13:30 2020 +1000
+
+    adding more comments and rearranging styling sheet to be easier to read
+
+commit 2a57b71d4db3e1c894bf84d14067bd0ffedfc710
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 12:59:09 2020 +1000
+
+    organising css sheet and updating with comments
+
+commit 1aafc03977cc55f775704e0417deb15afe134d59
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 12:51:57 2020 +1000
+
+    added content to first blog page - cats post
+
+commit e3787fa0157c0f9dad302e94de2d4f616571713d
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 12:23:20 2020 +1000
+
+    stlyed hover effects onto portfolio page articles
+
+commit e0802087cb257d16b5f4ce07f8f5c186f1f145b4
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 12:02:20 2020 +1000
+
+    updated styling on a to be specific to only hero page and about page links
+
+commit 819ca4237944633f1863a80a5133caf2570629a6
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 11:57:54 2020 +1000
+
+    updated header text to be the link instead of image for portfolio articles
+
+commit d446e89bae473577f6408af51c4f409b789071fe
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 11:54:09 2020 +1000
+
+    added screenshots and links of work in portfolio page to replace 2/3 placeholder images and text
+
+commit e6f49be0e08502e8b0c5b8ff71bf656e36c29994
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 11:44:46 2020 +1000
+
+    added full stop to end of home page title
+
+commit 3dda967e41884d8b371ea1b7f9763489096780c0
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 11:19:52 2020 +1000
+
+    made line height taller for p text
+
+commit ce83cecf9f702a6a3b0c638420976c208a57e5f3
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 11:18:15 2020 +1000
+
+    updated content for about me text
+
+commit e759f537efda9be2b4f4ed378f484019e3a0fe66
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 11:03:12 2020 +1000
+
+    removed redundant styling tage from #skills for desktop media query
+
+commit 9bb0925f5215714dd4d753493b4b18fa91995cf3
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 10:54:17 2020 +1000
+
+    added resume link and picture to about page
+
+commit 6b96f7d21acf28da55953cf42f2e4cae41eef03c
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Thu Sep 3 10:44:46 2020 +1000
+
+    updated home page hero image
+
+commit 69e2d827d4a22cbf3ffbf932b6b3ef55e50b685e
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 16:35:51 2020 +1000
+
+    changed flex direction of skills div on about page to row
+
+commit b83332a0ef7b0a93f6312296318e86ef39d291bf
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 16:32:55 2020 +1000
+
+    add flex display to desktop screens for about page cta's
+
+commit 8f2c890215e6a59d8a83a0febbb4600b40cc9d42
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 16:29:33 2020 +1000
+
+    swapped skills and p text around on about page and flex displayed buttons to show in a row as opposed to column on tablet view
+
+commit ff6d3479d06b0c1f38961783c88e0ce03fab1fde
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 16:17:38 2020 +1000
+
+    moved individual cell content around on about page grid - image to the right, text to the left and bottom/top of cell for h2/h3 text
+
+commit 72de347fa48c9bee076c31b9d62ebf0cc1bfbc95
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 16:05:12 2020 +1000
+
+    created grid element for tablet media query about section - image and header text only, formatted columns and rows to align well
+
+commit 8a28191aa0755149769461e070de258e1394c9ec
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 15:45:47 2020 +1000
+
+    added skills section onto about page, added icons and formatted to be responsive, adjusted p on about page line spacing and width, adjusted white space on blog page p textunder heading
+
+commit 0f78bc2b9f1bd8c1e59398464225ff76b36a9add
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 13:03:24 2020 +1000
+
+    updated portfolio images to graphics that say they are awesome projects
+
+commit fda7a36c59db400d3047a4f5d1b640ad2c4a49e2
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 12:54:12 2020 +1000
+
+    adjusted font sizes to be more responsive on mobile, reduced header weight
+
+commit 73bb556e562c4349825842ead65bff8cd2851161
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 10:04:56 2020 +1000
+
+    updating about me page links
+
+commit d6c621e264b23e0b712e7a1b09afdc2d65cc2363
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Wed Sep 2 09:57:09 2020 +1000
+
+    Typo fix on Portfolio page
+
+commit 3a128d3c9ec5ac9ac839beb11354bdcecd253670
+Author: Adriana Heesh <adrianaheesh@gmail.com>
+Date:   Tue Sep 1 20:21:57 2020 +1000
+
+    text animation and p text added to homepage, updated spacing on footer
+
+commit 4e6289c532a74164a431645c8c4bf8ade99b2ddb
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Tue Sep 1 16:57:16 2020 +1000
+
+    added same footer to every page
+
+commit 711bcb0e7702a36d48fefb78dc93e2b8ebea7287
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Tue Sep 1 16:55:01 2020 +1000
+
+    formatted footer logos and adjusted pseudo classes
+
+commit 08d095576c8e96350fcaa1cf43410a8f8c6c3c48
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Tue Sep 1 16:50:09 2020 +1000
+
+    added logos to footer on home page
+
+commit 014164df1f18b71615e3acfd4786050eff8cd7a0
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Tue Sep 1 15:45:57 2020 +1000
+
+    formatting added to mobile view home page to make centered
+
+commit 146099f279107afda49f96eaf374396f78a26289
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Tue Sep 1 15:37:56 2020 +1000
+
+    format grid displays for better span of content on larger screens
+
+commit 800a74f4abab8f261b804e414841f46eedd933a4
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Tue Sep 1 14:21:47 2020 +1000
+
+    insert filler images for formatting, create grid display for all articles to manage responsiveness
+
+commit 029d78042112d104218b0e1bd9292fafac5164b9
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Tue Sep 1 10:01:16 2020 +1000
+
+    adjusting size of text and margin in tablet screen size
+
+commit 5a2aed6ffdc6ed83a5add20dde7c003ea52f0546
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Tue Sep 1 09:46:34 2020 +1000
+
+    update navigation bar to include logo on all pages
+
+commit 010b1266c4e63028edcda2495fd7b427185859e5
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 16:32:48 2020 +1000
+
+    added logo to nav bar
+
+commit e10c6fa05e8a578eb0dd3da2223e3e4736c4837d
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 16:16:37 2020 +1000
+
+    making home page responsive, edited sizing and layout for mobile size and tablet
+
+commit f080cb772b1ccf5537cf6078121a94907c791fef
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 16:07:47 2020 +1000
+
+    added hero image and formatting flex to align according to wireframes
+
+commit 7770c8502992cd184efe814c425c5d7678613071
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 16:02:18 2020 +1000
+
+    Added a favicon
+
+commit 7965223803807b26fe93adfe8e44ac1381c5e049
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 15:43:14 2020 +1000
+
+    created media queries for tablet screen
+
+commit dd21a02226e3656fb70e98b414e56c7de365f9fc
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 15:05:18 2020 +1000
+
+    added arrow to call to action on home page, updated nav font to match body text font weight
+
+commit 645bddeb4ec611ee8ddd3ebd1c8517b0864a537d
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 14:51:36 2020 +1000
+
+    formatting links on about page
+
+commit 72093939d05fb0212c49746d0548419d7fda3565
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 14:48:03 2020 +1000
+
+    increased z-index on nav bar to fix scrolling issue with headers
+
+commit 48906b19c6596956bdf2a13ef2930e78dffbe863
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 14:45:10 2020 +1000
+
+    adjusted display with flex on sections to make all pages responsive
+
+commit 597615f5d669c806de9413ad3b40330f63c8027f
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 14:37:55 2020 +1000
+
+    stlyed footer layout
+
+commit bc5550a70c9994830fea79260e5c697d2cb806cd
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 14:34:45 2020 +1000
+
+    added classes to all sections that will have background colours
+
+commit 1a7e8138776bb7540c87d7918402eef43f72edb4
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 14:33:06 2020 +1000
+
+    styling the hr element under the title section of each page
+
+commit 3ccf5614053bf2c4317bee4a20a7ee9b262c78e3
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 14:25:08 2020 +1000
+
+    added pseduo class of background colour to links
+
+commit ac8dd2bb9ee9018636bdbf97f39e98dde2d3f114
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 14:15:52 2020 +1000
+
+    paragraph styling
+
+commit 9b2aa689add56d70dcbddd8f18b10590e7a53778
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 12:52:19 2020 +1000
+
+    added stlying to links, changed p font, adjusted font sizes to display best on mobile
+
+commit 7ffe336966adfaabeec468234ac928c1e6700e75
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 12:40:20 2020 +1000
+
+    updated font links in html
+
+commit de99039d858eaeaea8ff6ccd61aef9501b6a2ef9
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 12:35:22 2020 +1000
+
+    added a google font and style h1, h2 and h3
+
+commit fd97787d18be2a6fe97bd6b959d96d77e6627ed0
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 12:31:16 2020 +1000
+
+    changed font size to be smaller, added a pseudo class for hover on nav items
+
+commit b9baf00d751ebf54777131457b3376c39614e9d8
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 12:28:18 2020 +1000
+
+    changed font and colour in nav bar, and fixed the nav bar to the top of the screen
+
+commit 395228d7081d564abe9b3b79f2ba79e1decce0f1
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 12:10:57 2020 +1000
+
+    styling added to nav bar, added new google font 'Spartan' to html
+
+commit 12b48f4564811e32f902c2f392cceb18a1690f73
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 11:36:15 2020 +1000
+
+    created style sheet and linked it to all pages
+
+commit ea9c6fcf284a463e6374769f0eed56738a45de87
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 11:18:16 2020 +1000
+
+    adding comments to break up sections in each page
+
+commit fa9ea09a22a857320ebcbfbf8dd3e6fd1a5e6f2a
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 11:15:05 2020 +1000
+
+    linked body fonts to all pages
+
+commit f3471129693c946f6bed11a4b99f483333909f2b
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 11:09:23 2020 +1000
+
+    changed button attributes to plain a tags because they are links that should be styled, not related to a form
+
+commit d10ac194d69176c24c6e6335abed3c46f7a06096
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 11:00:17 2020 +1000
+
+    formatting update on blog page and added comment to footer section
+
+commit 2bbd6e3d8ba6302a487f64dd0701568a81b8afeb
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 10:52:30 2020 +1000
+
+    created 5 content sections on blog page, added some p text under heading section
+
+commit 7c2fbfcb09c11b6cb98ceea0276b2ad4aaa4d3e6
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 10:48:48 2020 +1000
+
+    created hero section for about me page, with strong call to actions
+
+commit 1a66475d6d7648f6b7f0f94b2370e0abec649e57
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 10:43:45 2020 +1000
+
+    added heading sections with the same formatting to all pages
+
+commit 2e69704eb2f02e4682753a868acf1f5f3915033d
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 10:40:57 2020 +1000
+
+    created sections in the body of portfolio.html to add work examples to portfolio
+
+commit e8c8d46f0c446a2f722a7aed60cae61af0a89537
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 10:35:02 2020 +1000
+
+    added comments to break up sections and created hero content all on index.html
+
+commit 62fd9a4bf4cdcca15896e1b9f1eb4015d69a11b9
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 10:28:24 2020 +1000
+
+    added draft links for icons and created footer for each page
+
+commit 46c1ca993c1a0cb1e01801a2d84383a8dd5c7111
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 10:22:17 2020 +1000
+
+    added nav bar to all pages
+
+commit 846f06c7f81324499684247c08498c5f2c4cc32a
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 10:19:06 2020 +1000
+
+    create other html pages and link to with nav bar
+
+commit f1a78529156a6fed6cfc381b1821c331a29bcc4b
+Author: Adriana Heesh <adrianaheesh@Adrianas-MacBook-Pro.local>
+Date:   Mon Aug 31 09:52:16 2020 +1000
+
+    initial commit
