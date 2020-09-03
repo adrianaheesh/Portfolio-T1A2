@@ -95,11 +95,12 @@ p {
 /* Animating home page - button appearing or name typing etc. time permitting*/
 #hero h1 {
     overflow: hidden;
-    animation: text-curser 1.5s steps(14, end), blink-caret 1.2s infinite;
+    animation: text-curser 2s steps(14, end), blink-caret 1.2s infinite;
     white-space: nowrap;
     border-right: solid 2px #3b3b3b;
 }
 
+/* Added slight delay with opacity so  */
 @keyframes text-curser {  
     from { width: 0 }
     to { width: 100% }
