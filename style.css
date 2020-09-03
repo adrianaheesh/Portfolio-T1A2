@@ -112,12 +112,20 @@ p {
 }
 
 /* Styling non-header text */
-p, section a {
+p, section a, {
     font-family: 'Spartan', sans-serif;
     font-size: 0.8em;
     color: #3b3b3b;
     padding: 15px;
     text-align: center;
+}
+
+ol {
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.8em;
+    color: #3b3b3b;
+    padding: 15px;
+    text-align: left;
 }
 
 /* Making links look like buttons for home page and about page */
