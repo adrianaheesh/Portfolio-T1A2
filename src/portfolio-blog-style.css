@@ -7,7 +7,7 @@
   align-content: center;
 }
 
-/* Individual posts */
+/* Individual articles */
 article {
   padding: 3%;
   display: grid;
@@ -37,7 +37,7 @@ article img {
   padding-bottom: 0;
 }
 
-/* Links for individual blog posts/work samples */
+/* Links for individual articles */
 .portfolio-links {
   text-decoration: none;
   padding: 0;
@@ -47,17 +47,14 @@ article img {
   text-decoration: underline;
 }
 
-/* Background colour for container with individual articles/posts for portfolio page and blog page */
+/* Background colour for alternating articles */
 .background-block {
   background: #f5e9e5;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 401px) {
-}
-
+/* Adjustments for desktop display, no adjustments needs for tablet as widths are percentages */
 @media only screen and (min-width: 801px) {
-  /* Formatting articles for portfolio work and blog posts*/
-  /* Each article container */
+  /* Article containers */
   .white-background,
   .background-block {
     display: grid;
@@ -66,6 +63,7 @@ article img {
     column-gap: 2%;
   }
 
+  /* Adjusting span and width of grid components to mirror with same styling for container */
   .white-background img {
     grid-column: 3 / 7;
   }
