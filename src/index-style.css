@@ -1,0 +1,89 @@
+/* Home page formatting, where #hero is the content container */
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero img {
+    max-width: 100%;
+    margin: 10px;
+}
+
+/* Home page text div, .hero-content is the container div */
+.hero-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Animation for home page header text */
+#hero h1 {
+    overflow: hidden;
+    animation: text-curser 2s steps(14, end), blink-caret 1.2s infinite;
+    white-space: nowrap;
+    border-right: solid 2px #3b3b3b;
+}
+
+@keyframes text-curser {  
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: #3b3b3b; }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 401px) {
+
+    /* Adjusting hero image on home page */
+    #hero img {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    #hero, .title {
+        margin-top: 90px;
+    }
+
+}
+
+@media only screen and (min-width: 801px) {
+    
+    #hero {
+        width: 70%;
+        margin: 90px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #hero img {
+        flex: 4;
+        max-width: 50%;  
+    }
+
+    #hero a {
+        max-width: 80%;
+        margin: 0.5em;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 3;
+    }
+
+    .hero-content a {
+        font-size: 1.5vw;
+    }
+
+    .hero-content h1 {
+        font-size: 4vw;
+    }
