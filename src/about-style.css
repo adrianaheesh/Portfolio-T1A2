@@ -3,6 +3,7 @@
 /* Mobile friendly */
 /* Formatting About page, where #about is container */
 #about {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,14 +52,14 @@
 
 /* Styling the icons in skills section */
 #skills i {
-    color: #3b3b3b;
-    font-size: 3rem;
-    padding: 2%;
+  color: #3b3b3b;
+  font-size: 3rem;
+  padding: 2%;
 }
 
 /* styling text next to the icons in skills section */
 #skills p {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 
 /* Links at bottom of about page */
@@ -80,7 +81,7 @@
 
 /* Webpage screen adjustments */
 @media only screen and (min-width: 801px) {
-    /* Applying same layout changes from tablet screen to desktop screen */
+  /* Applying same layout changes from tablet screen to desktop screen */
   /* Keeping image aligned with text in centre of grid */
   #about-hero img {
     grid-row: 1 / 3;
