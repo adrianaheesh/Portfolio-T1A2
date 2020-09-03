@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-/* Div containing h2/h3 text and hero image */
+/* Div within container containing h2/h3 text and hero image for about page */
 #about-hero {
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
   align-items: center;
 }
 
-/* Styling for links under about section */
+/* Styling for links under about section where #skills is the container*/
 #skills {
   width: 100%;
   display: flex;
@@ -38,6 +38,7 @@
   margin: 3%;
 }
 
+/* Where #skills div styles each div within the container, used to align icons */
 #skills div {
   width: 100%;
   display: inline-flex;
@@ -45,24 +46,28 @@
   align-items: center;
 }
 
-/* Links at bottom of page */
+/* Styling the icons in skills section */
+#skills i {
+    color: #3b3b3b;
+    font-size: 3rem;
+    padding: 2%;
+}
+
+/* styling text next to the icons in skills section */
+#skills p {
+    line-height: 1.2;
+}
+
+/* Links at bottom of about page */
 #about a {
   margin: 1%;
   width: 50%;
 }
 
-#skills i {
-  color: #3b3b3b;
-  font-size: 3rem;
-  padding: 2%;
-}
-
-#skills p {
-  line-height: 1.2;
-}
-
+/* Tablet screen size adjustments */
 @media only screen and (max-width: 800px) and (min-width: 401px) {
   /* Format layout of image and heading text for responsiveness */
+  /* div container with img and h2/h3 */
   #about-hero {
     display: grid;
     grid-template: 50% 50% / 50% 50%;
@@ -90,7 +95,7 @@
     text-align: left;
   }
 
-  /* Styling about call to action buttons  */
+  /* Styling about page call to action buttons to be inline instead of stacked */
   #about-cta {
     width: 100%;
     flex-direction: row;
@@ -99,7 +104,9 @@
   }
 }
 
+/* Webpage screen adjustments */
 @media only screen and (min-width: 801px) {
+    /* Applying same layout changes from tablet screen to desktop screen */
   /* Keeping image aligned with text in centre of grid */
   #about-hero img {
     grid-row: 1 / 3;
@@ -120,7 +127,7 @@
     text-align: left;
   }
 
-  /* Styling about call to action buttons  */
+  /* Styling about page call to action buttons  */
   #about-cta {
     width: 100%;
     flex-direction: row;
@@ -128,6 +135,7 @@
     align-items: center;
   }
 
+  /* Container with skill icons */
   #skills {
     flex-direction: row;
     margin: auto;
