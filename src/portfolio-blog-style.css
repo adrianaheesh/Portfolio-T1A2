@@ -1,4 +1,6 @@
-/* Formatting articles for portfolio page and blog page*/
+/* Formatting for portfolio page and blog page*/
+
+/* Mobile friendly */
 /* Overall page container */
 .posts {
   display: grid;
