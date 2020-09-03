@@ -263,8 +263,7 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3%;
-    background: #F5E9E5;
+    background: #e0e0e0;
     padding: 2%;
     margin: 3%;
 }
@@ -533,7 +532,6 @@ footer a:hover {
 
     #skills {
         flex-direction: row;
-        justify-items: space-between;
         margin: auto;
     }
 }
