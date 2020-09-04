@@ -1,0 +1,63 @@
+/* Styling for indivudal blog post page */
+
+/* Formatting for hero image */
+#blog-post img {
+  width: 80%;
+  margin: 5%;
+}
+
+/* Aligning content in centre where #blog-post is the container */
+#blog-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjusting header text to adapt to screen size */
+.title h1 {
+  font-size: 2.7vw;
+  height: 12px;
+}
+
+/* Moving content down for fixed nav bar */
+.title {
+  margin-top: 80px;
+}
+
+/* Styling the underline on heading pages */
+hr {
+  border-top: 2vw solid #f5e9e5;
+}
+
+ol {
+  background: #f5e9e5;
+  padding: 2%;
+  width: 80%;
+  list-style-position: inside;
+}
+
+li {
+  text-align: left;
+  font-size: 1em;
+  padding: 2%;
+  line-height: 1.5;
+}
+
+/* Tablet screen size adjustments */
+@media only screen and (max-width: 800px) and (min-width: 401px) {
+  ol {
+    font-size: 1em;
+  }
+}
+
+/* Desktop screen size adjustments */
+@media only screen and (min-width: 801px) {
+  .title {
+    margin-top: 10%;
+  }
+
+  ol {
+    font-size: 1.2em;
+  }
+}
